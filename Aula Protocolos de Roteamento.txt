@@ -1,0 +1,38 @@
+Um enlace também serve a nomenclatura para as estações que estão na mesma rede no mesmo baramento - mesma sub-rede
+show arp ou arp-m
+
+/25 : 1111 1111. 1111 1111 . 1111 1111 . 1000 0000 = 255.255.255.128 
+/27:1111 1111. 1111 1111 . 1111 1111 . 1110 0000 = 255.255.255.224
+/17:1111 1111. 1111 1111 . 1000 0000 . 0000 0000 = 255.255.128.0
+/15: 1111 1111. 1111 1110 . 0000 0000 . 0000 0000 = 255.254.0.0
+
+
+_____________________________________________________________________________
+
+Comutadores: switch e hub
+
+HUB: faz parte do dominio de colisão e faz parte do dominio de broadcast;
+
+SWITCH: fora do dominio de colisão e faz parte do dominio de broadcast;
+
+ROUTER: isolamento do dominio de colisão e isolamento do dominio de broadcast;
+resumo:o roteador consiste em portas de redes distintas, cada porta tem uma rede, ex: router/porta rede X ------as duas pontas mesma rede ----router/porta rede X
+
+
+
+para 300 hosts, atende 510 hosts 2 perda de rede e broad , /23 - 255.255.254.0 
+
+ pra redes de um roteador pro outro /30 255.255.255.252
+
+https://github.com/gujahlive/redes/blob/master/calculoDeSubRedesEHosts.c
+
+r1:
+/25 - 255.255.255.128 = 126 hosts 
+r2:
+/28 - 255.255.255.240 = 14 hosts
+r3:
+/26 - 255.255.255.192 = 62 hosts
+r4:
+/22 - 255.255.252.0 = 1022 hosts
+r5:
+/27 255.255.255.224 = 30 hosts
