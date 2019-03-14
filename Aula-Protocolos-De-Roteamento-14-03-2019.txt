@@ -50,62 +50,102 @@ bits| combinações
 
  
  Rede D 2 hosts
- Rede: 
- Broadcast:
+ Rede: 10.0.0.128
+ Broadcast:10.0.131
  Mascara:255.255.255.252/30
  
+ UOBDR:1000 0000
+ UOBDM:1111 1100
+ And:0000 0011 
+ 
+ 
  Rede E 2 hosts
- Rede: 
- Broadcast:
+ Rede: 10.0.0.132
+ Broadcast:10.0.0.135
  Mascara:255.255.255.252/30
+ 
+ UOBDR:1000 0100
+ UOBDM:1111 1100
+ And:  0000 0011 
  
  Rede F 2 hosts
  Rede: 10.0.0.136
- Broadcast:
+ Broadcast:10.0.0.139
  Mascara:255.255.255.252/30
  
+ UOBDR:1000 1000
+ UOBDM:1111 1100
+ And:  0000 0011 
  
  
 --------------------------------------------------------------------------------------------------------------------------------------
-                                                 IP: 200.111.0.0/15
+                                                 IP: 200.111.0.0/15 - a partir desse Ip, faz a rede
+                                                 Rede: 200.110.0.0/16
+bits| combinações
+ 1  | 2
+ 2  | 4
+ 3  | 8
+ 4  | 16
+ 5  | 32
+ 6  | 64
+ 7  | 128
+ 8  | 256
+ 
+ 
+ 128|64|32|16|8|4|2|1
+ 
+
+
 Rede A 120 hosts
-Rede:
-BroadCast:
-Mascara:
+Rede: 200.110.0.0
+BroadCast:200.110.0.127/25
+Mascara:255.255.255.128
+
+Ultimo Octeto da rede:   0000 0000 
+Ultimo Octeto da Mascara:1000 0000
+And:                     0111 1111 = 127 // soma com o ip da rede
+
 
 Rede B 60 hosts
-Rede:
-BroadCast:
-Mascara:
+Rede: 200.110.0.128/26
+BroadCast:200.110.0.191
+Mascara: 255.255.255.192
+Ul Octeto da Rede:  1000 0000
+Ul Octecto da Mask: 1100 0000
+And:                0011 1111 // soma com o ip da rede
+
 
 Rede C 29 hosts
-Rede:
-BroadCast:
-Mascara:
+Rede: 200.110.0.192
+BroadCast:200.110.0.223
+Mascara:255.255.255.224/27
+UODR: 
+UODM: 1110 0000
+And:  0001 1111 // soma com o ip
 
 Rede D 11 hosts
-Rede:
-BroadCast:
-Mascara:
+Rede:200.110.0.224
+BroadCast: 255.255.255.239
+Mascara:255.255.255.240
 
 Rede E 2 hosts
-Rede:
-BroadCast:
-Mascara:
+Rede:200.110.0.240 /30
+BroadCast: 200.110.0.243
+Mascara:255.255.255.252
 
 Rede F 2 hosts
-Rede:
-BroadCast:
-Mascara:
+Rede: 200.110.0.244
+BroadCast:200.110.0.247
+Mascara:255.255.255.252
 
 Rede G 2 hosts
-Rede:
-BroadCast:
-Mascara:
+Rede:200.110.0.248
+BroadCast:200.110.0.251
+Mascara:255.255.255.252
 
 Rede H 2 hosts
-Rede:
-BroadCast:
-Mascara:
+Rede:200.110.0.252
+BroadCast:200.110.0.255
+Mascara:255.255.255.252
 
 
