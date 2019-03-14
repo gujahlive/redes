@@ -13,25 +13,41 @@ bits| combinações
  
  
  ________________________________________________Redes
+ REDE 10.0.0.0 
+ Ultimo Octeto Bin: 0000 0000
+
+ 
  
  Rede A 
  
  60 hosts
- Rede: 
- Broadcast:
+ Rede: 10.0.0.0
+ Broadcast:10.0.0.63
  Mascara: 255.255.255.192/26
  
+ Ultimo Octeto Bin da rede: 0000 0000 \
+ Ultimo Octeto da mascara:  1100 0000 /AND Lógico
+ Resultado:                 0011 1111 = 63 // BroadCast
  
  Rede B 30 hosts
- Rede: 
- Broadcast:
+ Rede: 10.0.0.64
+ Broadcast: 10.0.0.95 == Adcioma o octeto da rede mais o resultado do and lógico do broadcast
  Mascara:255.255.255.224/27
+ 
+ Ultimo Octeto Bin da rede: 0000 0000 \
+ Ultimo Octeto da mascara:  0100 0000 /AND Lógico
+ Resultado:                 0011 1111 = 31 // BroadCast
  
  
  Rede C 16 hosts
- Rede: 
- Broadcast:
+ Rede: 10.0.0.96
+ Broadcast:10.0.0.127
  Mascara:255.255.255.224/27
+ 
+ Ultimo Octeto Bin da rede: 0110 0000 \
+ Ultimo Octeto da mascara:  1110 0000 /AND Lógico
+ Resultado:                 0111 1111 = 127 // BroadCast
+
  
  Rede D 2 hosts
  Rede: 
@@ -44,6 +60,9 @@ bits| combinações
  Mascara:255.255.255.252/30
  
  Rede F 2 hosts
- Rede: 
+ Rede: 10.0.0.136
  Broadcast:
  Mascara:255.255.255.252/30
+ 
+ 
+ 
