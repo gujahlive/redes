@@ -66,3 +66,46 @@ bits| combinações
  
  
  
+--------------------------------------------------------------------------------------------------------------------------------------
+                                                 IP: 200.111.0.0/15
+Rede A 120 hosts
+Rede:
+BroadCast:
+Mascara:
+
+Rede B 60 hosts
+Rede:
+BroadCast:
+Mascara:
+
+Rede C 29 hosts
+Rede:
+BroadCast:
+Mascara:
+
+Rede D 11 hosts
+Rede:
+BroadCast:
+Mascara:
+
+Rede E 2 hosts
+Rede:
+BroadCast:
+Mascara:
+
+Rede F 2 hosts
+Rede:
+BroadCast:
+Mascara:
+
+Rede G 2 hosts
+Rede:
+BroadCast:
+Mascara:
+
+Rede H 2 hosts
+Rede:
+BroadCast:
+Mascara:
+
+
