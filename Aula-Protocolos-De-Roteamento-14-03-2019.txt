@@ -1,0 +1,49 @@
+bits| combinações
+ 1  | 2
+ 2  | 4
+ 3  | 8
+ 4  | 16
+ 5  | 32
+ 6  | 64
+ 7  | 128
+ 8  | 256
+ 
+ 
+ 128|64|32|16|8|4|2|1
+ 
+ 
+ ________________________________________________Redes
+ 
+ Rede A 
+ 
+ 60 hosts
+ Rede: 
+ Broadcast:
+ Mascara: 255.255.255.192/26
+ 
+ 
+ Rede B 30 hosts
+ Rede: 
+ Broadcast:
+ Mascara:255.255.255.224/27
+ 
+ 
+ Rede C 16 hosts
+ Rede: 
+ Broadcast:
+ Mascara:255.255.255.224/27
+ 
+ Rede D 2 hosts
+ Rede: 
+ Broadcast:
+ Mascara:255.255.255.252/30
+ 
+ Rede E 2 hosts
+ Rede: 
+ Broadcast:
+ Mascara:255.255.255.252/30
+ 
+ Rede F 2 hosts
+ Rede: 
+ Broadcast:
+ Mascara:255.255.255.252/30
