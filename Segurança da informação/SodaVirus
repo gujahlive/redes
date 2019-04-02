@@ -1,0 +1,42 @@
+Estudo de caso da Empresa Sodavirus
+(Aulas 5 e 6)
+Cenário da empresa:
+A empresa sodavirus é uma pequena empresa que tem em sua rede de computadores dois
+servidores, o primeiro é um servidor de aplicação e banco de dados que utiliza o sistema
+operacional Windows Server 2008 da Microsoft, o segundo é um é servidor de arquivos que utiliza
+o sistema operacional Debian Linux versão 8, a empresa tem também quinze estações de trabalho
+todas com sistema operacional Windows 7. Os servidores tem sistema operacional legalizados,
+porém a atualização automática não está habilitada, todas as estações de trabalho não tem seus
+sistemas operacionais legalizados, portanto não fazem atualizações no sistema, a empresa não tem
+nenhum funcionário de TI contratado porém existe uma empresa terceirizada que atende os
+chamados quando ocorrem problemas, não tendo nenhuma responsabilidade com a gestão de TI da
+empresa sodavirus , a empresa não possui um sistema de backup profissional sendo as cópias de
+segurança realizadas por um script rodando no servidor Windows copiando o banco de dados e
+todos os arquivos do servidor de arquivos para um HD externo USB, a empresa não possui
+nenhuma política de segurança, a empresa não possui um domínio criado na rede local a rede opera
+como workgroup, sem restrições de acesso por usuário, não existe também um serviço de
+autenticação efetivo, todos os usuários utilizam o mesmo usuário e senha, os HD s dos servidores
+são compartilhados por inteiro ou seja toda unidade de disco é compartilhada sem restrições, a
+empresa não utiliza antivírus nos servidores e antivírus gratuito nas estações de trabalho.
+Problema:
+A empresa foi contaminada com o worm Conficker, e a equipe terceirizada de TI está tendo muitas
+dificuldades de remover o vírus pois o mesmo está retornando as estações que foram desinfetadas.
+Objetivo:
+-Propiciar ao aluno conhecer as ameaças e vulnerabilidades e saber identifica-las
+-Entender como essas ameaças atuam
+-Distinguir as principais ameaças
+-Identificar as ameaças e vulnerabilidades nos sistemas
+-Como explorar as vulnerabilidades
+-Como se proteger das ameaças
+-Como mitigar as vulnerabilidades
+Propostas de solução para a empresa só da vírus:
+-O que é um worm?
+-Qual a diferença de worm para vírus ?
+-Porque a empresa foi infectada?
+-Era possível não ser infectada?
+-Quais vulnerabilidades o worm explorou ?
+-Quais as estratégias para solução do problema?
+-Quais a estratégias para prevenção?
+Sites:
+https://www.youtube.com/watch?v=4OCtoKbMmDw
+https://www.youtube.com/watch?v=rOPmpZ2Clx8
